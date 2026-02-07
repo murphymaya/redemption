@@ -1,0 +1,22 @@
+name = "redemption"
+main = "index.js"
+compatibility_date = "2025-11-09"
+workers_dev = true
+preview_urls = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+UUID = "3d0d245d-0bf0-4579-8203-abdc2c38f247"
+PROXYIP = "nima.nscl.ir"
+
+# [build]
+# command = "npm run deploy"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
